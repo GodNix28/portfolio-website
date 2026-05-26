@@ -26,7 +26,7 @@ function Contact() {
         try{
 
             await axios.post(
-                "http://localhost:5000/api/messages",
+                "https://godwinnixon-portfolio.onrender.com/api/messages",
                 formData
             );
 

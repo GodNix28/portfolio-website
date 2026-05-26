@@ -10,7 +10,7 @@ function Projects() {
     useEffect(()=>{
 
         axios
-        .get("http://localhost:5000/api/projects")
+        .get("https://godwinnixon-portfolio.onrender.com/api/projects")
 
         .then((response)=>{
             setProjects(response.data);
